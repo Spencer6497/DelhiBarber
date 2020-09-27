@@ -1,0 +1,79 @@
+/* Desktop display */
+@media only screen and (min-width: 1025px) {
+    .carousel-item {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+}
+
+/* Tablet Display */
+@media only screen and (min-width: 415px) and (max-width: 1024px) {
+    .carousel-item {
+        width: 60%;
+        height: 60%;
+        margin: auto;
+    }
+}
+
+#facebookLink {
+    color: rgba(255,255,255,.55);
+}
+
+.mainTheme {
+    background: #8A0000;
+}
+
+/* Footer Rules */
+.page-footer p, h5, h6, h3 {
+    color: #fff;
+}
+
+.footer-copyright {
+    color: #fff;
+}
+
+.page-footer a {
+    color: gray;
+    text-decoration: none !important;
+}
+
+.page-footer a:hover {
+    color: #fff;
+}
+
+main {
+    margin-top: 56px;
+}
+
+.card-deck span {
+    font-size: 500%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-title, .card-subtitle, .card-text {
+    color: black;
+}
+
+.card {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-body * {
+    vertical-align: middle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Charm', cursive;
+}
+
+.navbar-brand {
+    font-family: 'Charm', cursive;
+    font-size: x-large;
+}
