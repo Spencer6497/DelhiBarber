@@ -3,7 +3,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top mainTheme">
-      <a class="navbar-brand" href="index.html">Delhi Barber</a>
+      <a class="navbar-brand" href="index.html#begin">Delhi Barber</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -12,13 +12,13 @@ class Header extends HTMLElement {
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="index.html#carddeck">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="index.html#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -43,7 +43,7 @@ class FooterTemplate extends HTMLElement {
         <div class="col d-flex justify-content-center align-items-center" id="footerBrand">
 
           <!-- Content -->
-          <a href="index.html"><h3>Delhi Barber</h3></a>
+          <a href="index.html#begin"><h3>Delhi Barber</h3></a>
 
         </div>
         <!-- Brand column -->
@@ -56,13 +56,13 @@ class FooterTemplate extends HTMLElement {
           <!-- Links -->
           <ul class="list-unstyled">
             <li class="pt-1 pb-1">
-              <strong><a href="about.html">About</a></strong>
+              <strong><a href="index.html#about">About</a></strong>
             </li>
             <li class="pt-1 pb-1">
               <strong><a href="index.html#carddeck">Services</a></strong>
             </li>
             <li class="pt-1 pb-1">
-              <strong><a href="contact.html">Contact</a></strong>
+              <strong><a href="index.html#contact">Contact</a></strong>
             </li>
           </ul>
 

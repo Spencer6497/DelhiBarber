@@ -1,9 +1,13 @@
 /* Desktop display */
 @media only screen and (min-width: 1025px) {
     .carousel-item {
-        width: 40%;
-        height: 40%;
+        max-width: 40%;
+        max-height: 40%;
         margin: auto;
+    }
+
+    .navbar-brand {
+        margin-left: 47% !important;
     }
 }
 
@@ -13,6 +17,17 @@
         width: 60%;
         height: 60%;
         margin: auto;
+    }
+
+    .navbar-brand {
+        margin-left: 43% !important;
+    }
+}
+
+/* Phone Display */
+@media only screen and (max-width: 414px) {
+    .card {
+        margin: 1rem !important;
     }
 }
 
@@ -25,8 +40,12 @@
 }
 
 /* Footer Rules */
-.page-footer p, h5, h6, h3 {
+.page-footer p, .page-footer h3, .page-footer h5 {
     color: #F1FAEE;
+}
+
+.page-footer h3, .page-footer h5 {
+
 }
 
 .footer-copyright {
@@ -46,6 +65,7 @@ main {
     margin-top: 56px;
 }
 
+/* Card rules */
 .card-deck span {
     font-size: 500%;
     text-align: center;
@@ -53,15 +73,9 @@ main {
     color: black;
 }
 
-.card-title, .card-subtitle, .card-text {
-    color: #1d3557;
-}
-
 .card {
     text-align: center;
     vertical-align: middle;
-    border-color: #1d3557;
-    background: #a8dadc;
 }
 
 .card-body * {
@@ -72,7 +86,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5 {
+.page-footer h3, .page-footer h5 {
     font-family: 'Charm', cursive;
 }
 
@@ -100,4 +114,20 @@ h1, h2, h3, h4, h5 {
 
 .fifthTheme {
     background: #1d3557;
+}
+
+.carousel-inner {
+    background: black;
+}
+
+body {
+    font: 400 15px Lato, sans-serif;
+}
+
+/* Anchor fix for smooth scroll */
+.anchor {
+    display: block;
+    position: relative;
+    top: -56px;
+    visibility: hidden;
 }
