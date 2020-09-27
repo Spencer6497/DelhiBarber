@@ -21,25 +21,25 @@
 }
 
 .mainTheme {
-    background: #8A0000;
+    background: #1d3557;
 }
 
 /* Footer Rules */
 .page-footer p, h5, h6, h3 {
-    color: #fff;
+    color: #F1FAEE;
 }
 
 .footer-copyright {
-    color: #fff;
+    color: #F1FAEE;
 }
 
 .page-footer a {
-    color: gray;
+    color: #a8dadc;
     text-decoration: none !important;
 }
 
 .page-footer a:hover {
-    color: #fff;
+    color: #F1FAEE;
 }
 
 main {
@@ -50,15 +50,18 @@ main {
     font-size: 500%;
     text-align: center;
     vertical-align: middle;
+    color: black;
 }
 
 .card-title, .card-subtitle, .card-text {
-    color: black;
+    color: #1d3557;
 }
 
 .card {
     text-align: center;
     vertical-align: middle;
+    border-color: #1d3557;
+    background: #a8dadc;
 }
 
 .card-body * {
@@ -76,4 +79,25 @@ h1, h2, h3, h4, h5 {
 .navbar-brand {
     font-family: 'Charm', cursive;
     font-size: x-large;
+}
+
+.primaryTheme {
+    background: #e63946;
+}
+
+/* Use for text! */
+.secondaryTheme {
+    color: #F1FAEE !important;
+}
+
+.tertiaryTheme {
+    background: #a8dadc;
+}
+
+.fourthTheme {
+    background: #457b9d;
+}
+
+.fifthTheme {
+    background: #1d3557;
 }
