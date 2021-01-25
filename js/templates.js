@@ -12,7 +12,7 @@ class Header extends HTMLElement {
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html#home">Home</a>
+            <a class="nav-link" href="index.html#begin">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#about">About</a>
@@ -59,7 +59,7 @@ class FooterTemplate extends HTMLElement {
           <!-- Links -->
           <ul class="list-unstyled mb-0">
             <li class="pt-1 pb-1">
-              <strong><a href="index.html#home">Home</a></strong>
+              <strong><a href="index.html#begin">Home</a></strong>
             </li>
             <li class="pt-1 pb-1">
               <strong><a href="index.html#about">About</a></strong>
