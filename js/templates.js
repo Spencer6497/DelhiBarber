@@ -147,7 +147,7 @@ class FooterTemplate extends HTMLElement {
             <br>
             Cincinnati, OH 45238
             <br>
-            <strong><a href="tel:+15136083969">(513) 608-3969</a></strong>
+            <strong><a href="tel:+15136083969">(513) 823-7132</a></strong>
           </p>
 
         </div>
