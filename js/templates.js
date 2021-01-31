@@ -20,9 +20,6 @@ class Header extends HTMLElement {
           <li class="nav-item">
             <a class="nav-link" href="index.html#carddeck">Services</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#contact">Contact</a>
-          </li>
         </ul>
       </div>
       <a href="https://www.facebook.com/DelhiBarber/" class="nav-link nav-item d-none d-lg-block" id="facebookLink"><i class="fa fa-facebook-f"></i></a>
@@ -66,9 +63,6 @@ class FooterTemplate extends HTMLElement {
             </li>
             <li class="pt-1 pb-1">
               <strong><a href="index.html#carddeck">Services</a></strong>
-            </li>
-            <li class="pt-1 pb-1">
-              <strong><a href="index.html#contact">Contact</a></strong>
             </li>
           </ul>
 
@@ -147,7 +141,7 @@ class FooterTemplate extends HTMLElement {
             <br>
             Cincinnati, OH 45238
             <br>
-            <strong><a href="tel:+15136083969">(513) 823-7132</a></strong>
+            <strong><a href="tel:+15138237132">(513) 823-7132</a></strong>
           </p>
 
         </div>
