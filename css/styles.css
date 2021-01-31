@@ -33,6 +33,15 @@
     .control-label {
         text-align: end;
     }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .portrait {
+        width: 250px !important;
+        height: 250px !important;
+    }
 }
 
 /* Phone Display */
@@ -40,6 +49,25 @@
     .card {
         margin: 1rem !important;
     }
+
+    .portrait {
+        width: 175px !important;
+        height: 175px !important;
+        border-radius: 50% !important;
+    }
+
+    .bio-container {
+        padding-top: 15px;
+        text-align: center !important;
+    }
+}
+
+/* Global styles */
+.portrait {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    /* border-radius: 50%; */
 }
 
 .carousel-item img {
