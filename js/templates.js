@@ -123,6 +123,12 @@ class FooterTemplate extends HTMLElement {
                 Closed Sunday and Monday
               </p></div>
             </div>
+            <br>
+            <div class="row">
+              <div class="col pl-0 mb-0 pr-0"><p>
+                <strong>WE DO NOT ACCEPT WALK-INS 1/2 HOUR BEFORE CLOSE</strong>
+              </p></div>
+            </div>
           </div>
 
         </div>
