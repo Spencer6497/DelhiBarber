@@ -112,15 +112,7 @@ class FooterTemplate extends HTMLElement {
             </div>
             <div class="row">
               <div class="col pl-0 mb-0 pr-0"><p>
-                Saturday
-              </p></div>
-              <div class="col pl-0 mb-0 pr-0"><p>
-                8AM-1PM
-              </p></div>
-            </div>
-            <div class="row">
-              <div class="col pl-0 mb-0 pr-0"><p>
-                Closed Sunday and Monday
+                Closed Saturday, Sunday and Monday
               </p></div>
             </div>
             <br>
