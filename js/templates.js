@@ -1,6 +1,6 @@
 class Header extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top mainTheme">
       <a class="navbar-brand" href="index.html#begin">Delhi Barbers</a>
@@ -25,12 +25,12 @@ class Header extends HTMLElement {
       <a href="https://www.facebook.com/DelhiBarber/" class="nav-link nav-item d-none d-lg-block" id="facebookLink"><i class="fa fa-facebook-f"></i></a>
   </nav>
         `;
-    }
+  }
 }
 
 class FooterTemplate extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <!-- Begin page footer -->
   <footer class="page-footer font-small pt-4 mainTheme">
     <!-- Footer Links -->
@@ -151,14 +151,14 @@ class FooterTemplate extends HTMLElement {
     <!-- Footer Links -->
     <hr>
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: Delhi Barbers
+    <div class="footer-copyright text-center py-3">© 2024 Copyright: Delhi Barbers
     </div>
     <!-- Copyright -->
     <div class="text-center">Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   </footer>
-        `
-    }
+        `;
+  }
 }
 
-customElements.define('nav-header', Header);
-customElements.define('footer-template', FooterTemplate);
+customElements.define("nav-header", Header);
+customElements.define("footer-template", FooterTemplate);
